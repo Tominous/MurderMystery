@@ -31,12 +31,12 @@ Classic-Gameplay-Time: 270
 # You STILL need to use external addon for HUB server game signs
 # Murder Mystery doesn't offer that addon.
 # Check here for more info: https://wiki.plajer.xyz/minecraft/murdermystery/addons.php#bungee-signs-not-official
-BungeeActivated: false
+BungeeActivated: true
 
 # Enable this option when you're using MySQL, otherwise it won't work.
 # Be careful when changing this because there is NO migrator between
 # flat file and MySQL for player stats.
-DatabaseActivated: false
+DatabaseActivated: true
 
 # Enable Inventory Manager for your games? (VERY USEFUL feature for MULTI ARENA)
 # This saves inventory of players and restores it after player leaves arena.
@@ -69,7 +69,7 @@ Whitelisted-Commands:
   - help
 
 # Enable in game rewards? See rewards.yml for more...
-Rewards-Enabled: false
+Rewards-Enabled: true
 
 # Should we block every not Murder Mystery associated commands in game?
 Block-Commands-In-Game: true
@@ -95,7 +95,7 @@ Update-Notifier:
   Notify-Beta-Versions: true
 
 # Should plugin send 'debug spam' to console? IT CAN HELP IF THERE IS SOME WEIRD BEHAVIOUR OCCURRING CAUSED BY THIS PLUGIN
-Debug: false
+Debug: true
 
 # Don't modify.
 Version: 1
